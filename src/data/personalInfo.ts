@@ -9,7 +9,7 @@ export const personalInfo = {
   github: 'https://github.com/Foredux',
   linkedin: 'https://www.linkedin.com/in/eduardo-jes%C3%BAs-rodr%C3%ADguez-castellano-aa791820b/',
 
-  cvUrl: '/cv-eduardo-rodriguez.pdf',
+  cvUrl: '/CV_EduardoJesúsRodríguez.pdf',
   photoUrl: '/foto-perfil.png',
   bio: 'Desarrollador Full Stack con experiencia en Angular, React, Spring Boot y tecnologías web. Apasionado por crear aplicaciones dinámicas, funcionales y optimizadas. Con formación especializada en desarrollo web y experiencia en entornos profesionales.',
   experience: [
@@ -28,7 +28,7 @@ export const projects: Project[] = [
     description: 'Portafolio interactivo con estilo iOS, ventanas flotantes, dock animado y soporte táctil. Proyecto personal que demuestra habilidades en React, TypeScript y animaciones.',
     tech: ['React', 'TypeScript', 'Framer Motion', 'Tailwind CSS', 'Zustand'],
     github: 'https://github.com/tuusuario/ios-portfolio',
-    demo: 'https://portafolios-ecru.vercel.app/inicio'
+    
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ export const projects: Project[] = [
     description: 'Dashboard interactivo con gráficos en tiempo real, filtros avanzados y exportación de datos. Desarrollado durante mi experiencia profesional.',
     tech: ['React', 'TypeScript', 'Recharts', 'Tailwind', 'API REST'],
     github: 'https://github.com/',
-    demo: 'https://demo.com'
+    
   },
   {
     id: 3,
@@ -55,17 +55,17 @@ export const projects: Project[] = [
 ];
 
 export const skills: Skill[] = [
-  { name: 'React', level: 90, category: 'frontend' },
-  { name: 'TypeScript', level: 85, category: 'frontend' },
-  { name: 'Angular', level: 85, category: 'frontend' },
-  { name: 'Next.js', level: 80, category: 'frontend' },
-  { name: 'Tailwind CSS', level: 90, category: 'frontend' },
-  { name: 'Node.js', level: 80, category: 'backend' },
-  { name: 'Spring Boot', level: 85, category: 'backend' },
-  { name: 'Java', level: 85, category: 'backend' },
-  { name: 'PHP', level: 75, category: 'backend' },
-  { name: 'API REST', level: 90, category: 'backend' },
-  { name: 'Git/GitHub', level: 85, category: 'tools' },
-  { name: 'Prestashop', level: 85, category: 'tools' },
-  { name: 'MySQL', level: 80, category: 'tools' }
+  { name: 'React', level: 50, category: 'frontend' },
+  { name: 'TypeScript', level: 45, category: 'frontend' },
+  { name: 'Angular', level: 50, category: 'frontend' },
+  { name: 'Next.js', level: 30, category: 'frontend' },
+  { name: 'Tailwind CSS', level: 40, category: 'frontend' },
+  { name: 'Node.js', level: 45, category: 'backend' },
+  { name: 'Spring Boot', level: 40, category: 'backend' },
+  { name: 'Java', level: 60, category: 'backend' },
+  { name: 'PHP', level: 60, category: 'backend' },
+  { name: 'API REST', level: 30, category: 'backend' },
+  { name: 'Git/GitHub', level: 40, category: 'tools' },
+  { name: 'Prestashop', level: 40, category: 'tools' },
+  { name: 'MySQL', level: 50, category: 'tools' }
 ];

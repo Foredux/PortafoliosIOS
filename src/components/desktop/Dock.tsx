@@ -30,7 +30,7 @@ export const Dock: React.FC = () => {
     { type: 'skills', icon: <FiCode />, label: isMobile ? '' : 'Skills', title: 'Tecnologías' },
     { type: 'contact', icon: <FiMail />, label: isMobile ? '' : 'Contacto', title: 'Contacto' },
     { type: 'settings', icon: <FiSettings />, label: isMobile ? '' : 'Ajus', title: 'Configuración' },
-    { type: 'github', icon: <FiGithub />, label: isMobile ? '' : 'Git', title: 'GitHub', isExternal: true, url: 'https://github.com/tuusuario' }
+    { type: 'github', icon: <FiGithub />, label: isMobile ? '' : 'Git', title: 'GitHub', isExternal: true, url: 'https://github.com/Foredux' }
   ];
 
   const handleClick = (item: DockItem) => {

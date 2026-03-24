@@ -21,7 +21,7 @@ export const ContactWindow: React.FC = () => {
   const handleDownloadCV = () => {
     const link = document.createElement('a');
     link.href = personalInfo.cvUrl;
-    link.download = 'CV_Eduardo_Rodriguez.pdf';
+    link.download = 'CV_EduardoJesúsRodríguez.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
