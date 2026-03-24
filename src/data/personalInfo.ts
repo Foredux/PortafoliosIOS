@@ -9,7 +9,7 @@ export const personalInfo = {
   github: 'https://github.com/Foredux',
   linkedin: 'https://www.linkedin.com/in/eduardo-jes%C3%BAs-rodr%C3%ADguez-castellano-aa791820b/',
 
-  cvUrl: '/CV_EduardoJesúsRodríguez.pdf',
+  cvUrl: '/Cv_EduardoJesúsRodríguez.pdf',
   photoUrl: '/foto-perfil.png',
   bio: 'Desarrollador Full Stack con experiencia en Angular, React, Spring Boot y tecnologías web. Apasionado por crear aplicaciones dinámicas, funcionales y optimizadas. Con formación especializada en desarrollo web y experiencia en entornos profesionales.',
   experience: [
