@@ -7,6 +7,7 @@ import { ProjectsWindow } from './components/windows/ProjectsWindow';
 import { SkillWindow } from './components/windows/SkillWindow';
 import { ContactWindow } from './components/windows/ContactWindow';
 import { SettingsWindow } from './components/windows/SettingsWindow';
+import { WelcomeTooltip } from './components/WelcomeTooltip';  // ← Tooltip simple
 import { useWindowsStore } from './store/WindowsStore';
 import { useWindowFocus } from './hooks/useWindowFocus';
 
@@ -37,7 +38,7 @@ function App() {
     <div className="h-screen overflow-hidden">
       <MenuBar />
       <Wallpaper>
-       
+        <WelcomeTooltip />
         {openWindows.map((window) => (
           <Window
             key={window.id}
